@@ -7,7 +7,7 @@ def join_nested_strings(src)
   while cout < src.length do 
     cin = 0 
     while cin < src.length[cout] do 
-      if src[cout][cin].to_s == src[cout][cin]
+      if src[cout][cin].class == String 
         str = str + str[cout][cin]
       end 
       cin +=1 
