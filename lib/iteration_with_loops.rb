@@ -8,7 +8,7 @@ def join_nested_strings(src)
     cin = 0 
     while cin < src.length[cout] do 
       if src[cout][cin].to_s == src[cout][cin]
-        str += str[cout][cin]
+        str = str + str[cout][cin]
       end 
       cin +=1 
     end 
